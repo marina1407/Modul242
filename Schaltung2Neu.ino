@@ -86,8 +86,8 @@ void loop() {
 
   // Zufällige Wartezeit bis LED aufleuchtet
   srand(time(NULL));
-  randomTimeLed = rand() % 12;
-  if (randomTimeLed =! 0){
+  randomTimeLed = rand() % 6;
+  if (randomTimeLed != 0){
     delay(randomTimeLed * 1000);
   }
   else{
